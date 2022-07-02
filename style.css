@@ -2,7 +2,11 @@ header {
     display: flex;
 }
 
-.header-links {
+header ul {
     display: flex;
     list-style: none;
+}
+
+header a {
+    text-decoration: none;
 }
