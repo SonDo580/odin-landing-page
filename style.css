@@ -138,3 +138,9 @@ header a {
 }
 
 /* FOOTER */
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 0;
+    text-align: center;
+}
