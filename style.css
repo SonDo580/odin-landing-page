@@ -1,3 +1,8 @@
+body {
+    box-sizing: border-box;
+}
+
+/* HEADER */
 header {
     display: flex;
     background-color: #1F2937;
@@ -5,23 +10,50 @@ header {
     align-items: center;
     padding: 0 15%;
 }
-
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 }
-
 header ul {
     display: flex;
     list-style: none;;
 }
-
 header li {
     margin: 0 8px;
 }
-
 header a {
     text-decoration: none;
     color: #F9FAF8;;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    padding: 60px 15% 100px 15%;
+    background-color: #1F2937;
+}
+.banner .left {
+    padding-right: 32px;
+}
+.banner h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+.banner p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.banner img {
+    width: 35vw;
+}
+.banner button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none
 }
